@@ -37,8 +37,8 @@ TODO: ChatBotDino is the framework to give the answer of the all qery which is y
    }
    s.exclude_files = "Classes/Exclude"
    s.static_framework = true
-#   s.dependency 'Firebase/Firestore'
-#   s.dependency 'FirebaseFirestoreSwift'
+   s.dependency 'Firebase/Firestore'
+   s.dependency 'FirebaseFirestoreSwift'
    s.dependency 'PaddingLabel'
    s.dependency 'ADCountryPicker'
    s.dependency 'AMKeyboardFrameTracker'

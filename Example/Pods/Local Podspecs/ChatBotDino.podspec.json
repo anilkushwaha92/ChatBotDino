@@ -29,6 +29,12 @@
   "exclude_files": "Classes/Exclude",
   "static_framework": true,
   "dependencies": {
+    "Firebase/Firestore": [
+
+    ],
+    "FirebaseFirestoreSwift": [
+
+    ],
     "PaddingLabel": [
 
     ],

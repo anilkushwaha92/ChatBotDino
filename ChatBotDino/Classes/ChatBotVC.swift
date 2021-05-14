@@ -75,7 +75,7 @@ public class ChatBotVC: UIViewController, UITextFieldDelegate {
 
     func methodForSetup(){
         
-        let bundlePath = Bundle.main.path(forResource: "ChatBotSDK", ofType: "bundle")
+        let bundlePath = Bundle.main.path(forResource: "ChatBotDino", ofType: "bundle")
         let resourceBundle = Bundle.init(path: bundlePath!)
         self.tableviewList?.register(UINib(nibName: "LeftListCell", bundle: resourceBundle), forCellReuseIdentifier: "LeftListCell")
         self.tableviewList?.register(UINib(nibName: "RightListCell", bundle: resourceBundle), forCellReuseIdentifier: "RightListCell")
@@ -104,6 +104,9 @@ public class ChatBotVC: UIViewController, UITextFieldDelegate {
         
         reloadData()
         
+    }
+    @IBAction func backBtnClickMethod(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     func reloadData(){

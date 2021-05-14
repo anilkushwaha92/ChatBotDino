@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChatBotVC" customModule="iOSChatBot" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChatBotVC" customModule="ChatBotDino" customModuleProvider="target">
             <connections>
                 <outlet property="bottomHeightConstraint" destination="302-oe-BRM" id="IAF-WW-Kip"/>
                 <outlet property="btn1" destination="Bxk-Gq-WOG" id="3gn-2M-2eB"/>
@@ -338,6 +338,9 @@
                                 <constraint firstAttribute="height" constant="40" id="gH5-OH-Dpo"/>
                             </constraints>
                             <state key="normal" title="Back"/>
+                            <connections>
+                                <action selector="backBtnClickMethod:" destination="-1" eventType="touchUpInside" id="Zgm-pG-NE8"/>
+                            </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ChatBot Desk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAl-AX-bQM">
                             <rect key="frame" x="60" y="2" width="294" height="46"/>

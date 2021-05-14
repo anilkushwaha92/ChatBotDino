@@ -1,6 +1,8 @@
 PODS:
+  - ADCountryPicker (2.1.0)
   - AMKeyboardFrameTracker (1.0.3)
   - ChatBotDino (0.1.0):
+    - ADCountryPicker
     - AMKeyboardFrameTracker
     - PaddingLabel
   - FBSnapshotTestCase (2.1.4):
@@ -16,6 +18,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - ADCountryPicker
     - AMKeyboardFrameTracker
     - FBSnapshotTestCase
     - PaddingLabel
@@ -25,8 +28,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  ADCountryPicker: 502cee76a30ea1c3834eb0df170ce635691655c9
   AMKeyboardFrameTracker: 9cd83f68ac6eb8376cab983669939dd8458068c3
-  ChatBotDino: 3547c67b2c0c3db3b90f3a2d61c69b54e9dd5811
+  ChatBotDino: 1818c30cbc978ee54a0a0aa893ab84ba603c80af
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   PaddingLabel: 21ab5282c780366018b04c30e3920c2f55a2fd14
 

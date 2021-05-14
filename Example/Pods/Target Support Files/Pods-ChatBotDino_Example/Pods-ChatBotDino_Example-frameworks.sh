@@ -175,10 +175,12 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/ADCountryPicker/ADCountryPicker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AMKeyboardFrameTracker/AMKeyboardFrameTracker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PaddingLabel/PaddingLabel.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/ADCountryPicker/ADCountryPicker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AMKeyboardFrameTracker/AMKeyboardFrameTracker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PaddingLabel/PaddingLabel.framework"
 fi

@@ -1,10 +1,14 @@
 PODS:
-  - ChatBotDino (0.1.0)
+  - AMKeyboardFrameTracker (1.0.3)
+  - ChatBotDino (0.1.0):
+    - AMKeyboardFrameTracker
+    - PaddingLabel
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - PaddingLabel (1.2)
 
 DEPENDENCIES:
   - ChatBotDino (from `../`)
@@ -12,15 +16,19 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AMKeyboardFrameTracker
     - FBSnapshotTestCase
+    - PaddingLabel
 
 EXTERNAL SOURCES:
   ChatBotDino:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ChatBotDino: 726eaef37beed7163a696ff53e359c26c6b05bce
+  AMKeyboardFrameTracker: 9cd83f68ac6eb8376cab983669939dd8458068c3
+  ChatBotDino: 3547c67b2c0c3db3b90f3a2d61c69b54e9dd5811
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  PaddingLabel: 21ab5282c780366018b04c30e3920c2f55a2fd14
 
 PODFILE CHECKSUM: b56dd6aa7d01573d9048064cdcd90431bdf66fb4
 

@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		02396A444ACFA4B5C0CB1E8F /* Pods_ChatBotDino_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatBotDino_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E2EE1F19936B46ED22FF57 /* Pods_ChatBotDino_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatBotDino_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3938B204D80D265CB63064D6 /* ChatBotDino.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ChatBotDino.podspec; path = ../ChatBotDino.podspec; sourceTree = "<group>"; };
+		3938B204D80D265CB63064D6 /* ChatBotDino.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ChatBotDino.podspec; path = ../ChatBotDino.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* ChatBotDino_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBotDino_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		8437B956C77E3D7FFF7B0EE0 /* Pods-ChatBotDino_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBotDino_Example.release.xcconfig"; path = "Target Support Files/Pods-ChatBotDino_Example/Pods-ChatBotDino_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BB82D2B8E54295F3394AF71E /* Pods-ChatBotDino_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBotDino_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ChatBotDino_Tests/Pods-ChatBotDino_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C81071B350013AC2664B5D67 /* Pods-ChatBotDino_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBotDino_Example.debug.xcconfig"; path = "Target Support Files/Pods-ChatBotDino_Example/Pods-ChatBotDino_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E01620C5637EF887831F0A0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F5096D2406D31C5722F0118C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E01620C5637EF887831F0A0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F5096D2406D31C5722F0118C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				BB82D2B8E54295F3394AF71E /* Pods-ChatBotDino_Tests.debug.xcconfig */,
 				7A9AF5F125CE923E37933EA7 /* Pods-ChatBotDino_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

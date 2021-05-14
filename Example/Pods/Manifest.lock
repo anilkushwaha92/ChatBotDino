@@ -1,0 +1,27 @@
+PODS:
+  - ChatBotDino (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ChatBotDino (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ChatBotDino:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChatBotDino: 726eaef37beed7163a696ff53e359c26c6b05bce
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: b56dd6aa7d01573d9048064cdcd90431bdf66fb4
+
+COCOAPODS: 1.10.1

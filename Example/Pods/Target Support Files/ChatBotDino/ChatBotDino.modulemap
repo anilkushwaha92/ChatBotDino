@@ -1,0 +1,6 @@
+framework module ChatBotDino {
+  umbrella header "ChatBotDino-umbrella.h"
+
+  export *
+  module * { export * }
+}

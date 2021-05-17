@@ -319,9 +319,7 @@ public class ChatBotVC: UIViewController, UITextFieldDelegate {
                 }
                 
             }
-
         }
-            
     }
     
     func methodForLoadData(){

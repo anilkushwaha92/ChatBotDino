@@ -181,7 +181,6 @@ public class ChatBotVC: UIViewController, UITextFieldDelegate {
                             }
                         }
                     }
-                    
                 }
             }else if self.uiValue == "Get Email"{
                 if self.isValidEmail(testStr: "\(self.searchTextfield.text ?? "")"){
@@ -403,6 +402,7 @@ extension ChatBotVC: UITableViewDataSource, UITableViewDelegate {
             return cell
             
         }
+        
     }
     
     public func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {

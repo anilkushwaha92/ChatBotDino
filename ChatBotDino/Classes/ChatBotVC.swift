@@ -212,6 +212,8 @@ public class ChatBotVC: UIViewController, UITextFieldDelegate {
                     }
                     
                 }
+            }else if "\(self.searchTextfield.text ?? "")" == ""{
+                methodForLoadData(msg : "Field can't be left blank")
             }else{
                 templateArr.append(["text" : "\(searchTextfield.text ?? "")"])
                 countValue = false
@@ -220,6 +222,26 @@ public class ChatBotVC: UIViewController, UITextFieldDelegate {
                     self.methodForLoadData()
                 }
             }
+    }
+    
+    func methodForLoadData(msg : String){
+        let alert = UIAlertController(title: "ChatBot", message: msg, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+            switch action.style{
+                case .default:
+                print("default")
+                
+                case .cancel:
+                print("cancel")
+                
+                case .destructive:
+                print("destructive")
+                
+            @unknown default:
+                print("destructive")
+            }
+        }))
+        self.present(alert, animated: true, completion: nil)
     }
     
     @IBAction func startBotAgainMethod(_ sender: UIButton) {
@@ -473,7 +495,7 @@ extension ChatBotVC: AMKeyboardFrameTrackerDelegate {
     
     public func keyboardFrameDidChange(with frame: CGRect) {
         let tabBarHeight = self.tabBarController?.tabBar.frame.height ?? 0.0
-        let bottomSapcing = self.view.frame.height - frame.origin.y - tabBarHeight - self.keyboardFrameTrackerView.frame.height
+        let bottomSapcing = self.view.frame.height - frame.origin.y - tabBarHeight - self.keyboardFrameTrackerView.frame.height+30.0
         self.bottomHeightConstraint.constant = bottomSapcing > 0 ? bottomSapcing : 0
         self.view.layoutIfNeeded()
     }

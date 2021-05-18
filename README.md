@@ -20,6 +20,24 @@ it, simply add the following line to your Podfile:
 pod 'ChatBotDino'
 ```
 
+## Use
+
+--- Import module 
+import ChatBotDino
+import Firebase
+
+--- And set the below code to access chatbot
+
+let bundlePath = Bundle.main.path(forResource: "ChatBotDino", ofType: "bundle")
+let resourceBundle = Bundle.init(path: bundlePath!)
+
+if FirebaseApp.app() == nil{
+    FirebaseApp.configure()
+}
+
+let vc = ChatBotVC(nibName:"ChatBotVC", bundle: resourceBundle)
+self.present(vc, animated: true, completion: nil)
+
 ## Author
 
 anilkushwaha92, anil@appypiellp.com
